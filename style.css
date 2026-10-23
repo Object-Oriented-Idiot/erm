@@ -2,8 +2,7 @@ body {
   background-image: url('image.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: auto;
 .l {
             text-align: left;}
 .r {
