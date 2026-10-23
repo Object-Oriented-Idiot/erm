@@ -4,8 +4,8 @@ body {
   background-attachment: fixed;
   background-size: auto; }
 .l {
-            text-align: left;}
+            float: left;}
 .r {
-            text-align: right;}
+            float: right;}
 .c {
-            text-align: center;}
+            float: center;}
