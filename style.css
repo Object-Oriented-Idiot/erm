@@ -4,3 +4,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.l {
+            text-align: left;}
+.r {
+            text-align: right;}
+.c {
+            text-align: center;}
