@@ -1,10 +1,16 @@
 body {
   background-image: url('image.png');
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: cover; }
 .l {
             float: left;}
 .r {
             float: right;}
 .c {
             float: center;}
+
+.grid-layout {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 15px;
+            align-items: center;}
