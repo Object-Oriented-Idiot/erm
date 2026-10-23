@@ -1,7 +1,8 @@
 body {
+  color: white;
   background-image: url('image.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover; }
 .l {
             float: left;}
@@ -9,3 +10,18 @@ body {
             float: right;}
 .c {
             float: center;}
+
+.parent {
+  position: relative;
+  height: 200px;
+}    
+.childl {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.childr {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+}
