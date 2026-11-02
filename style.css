@@ -4,24 +4,18 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover; }
-.l {
-            float: left;}
-.r {
-            float: right;}
-.c {
-            float: center;}
 
-.parent {
-  position: relative;
-  height: 200px;
-}    
-.childl {
-  position: absolute;
-  top: 0%;
-  left: 0%;
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
 }
-.childr {
-  position: absolute;
-  top: 0%;
-  left: 50%;
+
+.flex-item {
+  background-color: #9E9E9E;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
 }
