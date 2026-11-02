@@ -20,5 +20,28 @@ body {
   padding: 10px;
   font-size: 25px;
   text-align: center;
-  width: 100%;
+}
+
+a:link {
+  color: #636F7D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #636F7D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #636F7D;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #636F7D;
+  background-color: transparent;
+  text-decoration: underline;
 }
