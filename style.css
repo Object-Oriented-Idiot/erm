@@ -7,14 +7,16 @@ body {
 
 .flex-container {
   display: flex;
-  background-color: #f1f1f1;
+  background-color: #3F4D5C;
+  padding: 10px;
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
   justify-content: flex-end;
 }
 
 .flex-item {
-  background-color: #9E9E9E;
+  color: #636F7D;
+  background-color: #3F4D5C;
   padding: 10px;
   font-size: 25px;
   text-align: center;
