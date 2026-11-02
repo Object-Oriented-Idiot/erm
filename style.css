@@ -13,7 +13,7 @@ body {
   justify-content: flex-end;*/
 }
 
-.flex-container div {
+.flex-item {
   background-color: #9E9E9E;
   padding: 10px;
   font-size: 25px;
